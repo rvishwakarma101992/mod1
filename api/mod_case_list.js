@@ -20,6 +20,7 @@ module.exports = function(app, db){
 				res.json(err);
 			}else{
 	  			console.log("Record FOUND");
+	  			console.log("Omkar");
 				res.json(doc);
 	  		} 
 		}
