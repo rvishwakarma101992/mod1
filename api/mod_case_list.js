@@ -24,7 +24,7 @@ module.exports = function(app, db){
 	  		} 
 		}
 	}
-
+		console.log("hi git");
 	function delete_from_mod_case_list(req, res){
 
 		console.log(req.params.mod_case_list_id);
