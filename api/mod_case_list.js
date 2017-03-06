@@ -21,6 +21,8 @@ module.exports = function(app, db){
 			}else{
 	  			console.log("Record FOUND");
 	  			console.log("Omkar");
+	  			console.log("Omkar23");
+
 				res.json(doc);
 	  		} 
 		}
