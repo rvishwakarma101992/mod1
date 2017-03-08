@@ -65,6 +65,7 @@ var api_files = [
 	{api : api_path + 'spenca_orders.js'},
 	{api : api_path + 'mod_case_list.js'},
 	{api : api_path + 'ukl_traps.js'},
+	{api : api_path + 'VSWF_list.js'},
 ];
 
 var MONGOLAB_URI = "mongodb://user_marketresearchandreports:pass_marketresearchandreports@ds053146.mlab.com:53146/db_marketresearchandreports";
@@ -84,6 +85,7 @@ var db = mongojs(MONGOLAB_URI,
 	 	'collection_spenca_orders',
 	 	'collection_mod_case_list',
 	 	'collection_ukl_traps',
+	 	'collection_VSWF_list',
 	 	
 	]
 );
